@@ -15,7 +15,7 @@ Requirements:
 ```
 {
   title: string,
-  body: bar,
+  body: string,
   userId: number,
 }
 ```

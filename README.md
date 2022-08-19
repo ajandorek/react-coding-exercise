@@ -20,3 +20,5 @@ Requirements:
 }
 ```
 * *Assume for this that you are the user with ID 1*
+* Wire up the search bar to search through the posts based on the post's body text
+  * *Search should not fire off any additional API requests*

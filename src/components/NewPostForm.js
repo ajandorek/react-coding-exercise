@@ -34,7 +34,7 @@ const InputWrapper = styled.div`
   padding: 5px 0px;
 `;
 
-const StyledInput = styled.input`
+export const StyledInput = styled.input`
   padding: 0 5px;
   height: 30px; 
   border-radius: 5px;

@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "styled-components/macro";
 
-import NewPostForm from "./components/NewPostForm";
+import NewPostForm, { StyledInput } from "./components/NewPostForm";
 
 import "./App.css";
 
@@ -10,6 +10,7 @@ function App() {
     <PageWrapper>
       <PostItemHeader>My Posts</PostItemHeader>
       <NewPostForm />
+      <StyledInput placeholder="Search posts..." />
       <PostItemWrapper>
         {/* Posts go here */}
       </PostItemWrapper>
@@ -33,6 +34,7 @@ const PostItemWrapper = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 10px;
 `;
 
 export default App;
